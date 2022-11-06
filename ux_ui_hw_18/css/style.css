@@ -27,19 +27,36 @@
 .project-overview {
     border: solid red 1px;
 }
-.project-img {
+.project-img-01 {
     border: solid red 1px;
+    grid-area: projectImg01;
 }
-.project-desc {
+.project-desc-01{
     border: solid red 1px;
+    grid-area: projectDesc01;
+}
+.project-img-02 {
+    border: solid red 1px;
+    grid-area: projectImg02;
+}
+.project-desc-02 {
+    border: solid red 1px;
+    grid-area: projectDesc02;
+}
+.project-img-03 {
+    border: solid red 1px;
+    grid-area: projectImg03;
+}
+.project-desc-03 {
+    border: solid red 1px;
+    grid-area: projectDesc03;
 }
 .workGrid {
     display: grid;
-    grid-area: work-section;
-}
-.grid-contaier {
-    display: grid;
-    grid-template-areas: ''
+    grid-template-areas: 
+    'projectImg01 projectDesc01'
+    'projectImg02 projectDesc02'
+    'projectImg02 projectDesc03'
 }
 h1 {
     border: solid red 1px;
@@ -65,4 +82,12 @@ p {
     border: solid red 1px;
     padding: 10px;
     margin: 10px;
+}
+@media only screen and (max-width: 600){
+    .ux-skill {
+        width: 100%;
+    }
+    .flexContainer {
+        flex-direction: column;
+    }
 }
