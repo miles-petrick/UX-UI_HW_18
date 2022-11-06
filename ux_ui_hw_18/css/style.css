@@ -1,0 +1,68 @@
+.skills-section {
+    border: solid red 1px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.skills-group {
+    border: solid red 1px;
+}
+.skill-desc {
+    border: solid red 1px;
+    padding: 10px;
+}
+.ux-skill {
+    background-color: rgb(231, 231, 231);
+    border: solid black 1px;
+    text-align: center;
+    width: 33%;
+}
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.work-section {
+    border: solid red 1px;
+}
+.project-overview {
+    border: solid red 1px;
+}
+.project-img {
+    border: solid red 1px;
+}
+.project-desc {
+    border: solid red 1px;
+}
+.workGrid {
+    display: grid;
+    grid-area: work-section;
+}
+.grid-contaier {
+    display: grid;
+    grid-template-areas: ''
+}
+h1 {
+    border: solid red 1px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+h3 {
+    border: solid red 1px;
+    padding: 10px;
+    margin: 10px;
+}
+h4 {
+    border: solid red 1px;
+    margin: 10px;
+}
+p {
+    border: solid red 1px;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+}
+.ux-img img {
+    border: solid red 1px;
+    padding: 10px;
+    margin: 10px;
+}
